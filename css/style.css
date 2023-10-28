@@ -32,6 +32,7 @@ h1 {
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px #05aa1b;
 }
 p {
   padding-bottom: 10px;
@@ -98,7 +99,7 @@ input {
   position: absolute;
 }
 button#signup-button {
-  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #f3ef09, #ff08d2);
   border: none;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
@@ -108,7 +109,7 @@ button#signup-button {
   display: block;
 }
 button#signup-button:hover {
-  background: linear-gradient(to left, #ff6a00, #ee0979);
+  background: linear-gradient(to left, #f3ef09, #ff08d2);
 }
 .error-message {
   color: red;
@@ -120,7 +121,7 @@ button#signup-button:hover {
 }
 @media screen and (min-width: 1024px) {
   .box {
-    background: rgba(224, 168, 168, 0.814);
+    background: rgba(240, 156, 156, 0.901);
     color: #000000;
     padding: 20px;
     text-align: center;
@@ -138,6 +139,7 @@ button#signup-button:hover {
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: 60px;
+    text-shadow: 2px 2px #06c920;
   }
   p {
     padding-bottom: 10px;
@@ -163,6 +165,19 @@ button#signup-button:hover {
     position: relative;
     padding-top: 5px;
     font-size: 15px;
+  }
+  button#signup-button {
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+  }
+  button#signup-button:hover {
+    background: linear-gradient(to left, #ee0979, #ff6a00);
   }
   .error-message {
     color: red;
