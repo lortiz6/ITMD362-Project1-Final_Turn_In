@@ -17,7 +17,7 @@ body {
   padding: 20px;
   text-align: center;
   position: absolute;
-  width: 80%;
+  width: 60%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -32,7 +32,7 @@ h1 {
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Cinzel', serif;
-  text-shadow: 2px 2px #d0ff00c0;
+  text-shadow: 2px 2px #d0ff0095;
 }
 p {
   padding-bottom: 10px;
