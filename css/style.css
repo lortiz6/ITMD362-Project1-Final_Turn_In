@@ -109,6 +109,11 @@ button#signup-button {
 button#signup-button:hover {
   background: linear-gradient(to left, #ff6a00, #ee0979);
 }
+@media screen and (max-width: 767px) {
+  input {
+    width: 90%;
+  }
+}
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 1024px;
