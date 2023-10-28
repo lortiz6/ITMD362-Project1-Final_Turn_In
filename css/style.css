@@ -110,6 +110,9 @@ button#signup-button {
 button#signup-button:hover {
   background: linear-gradient(to left, #ff6a00, #ee0979);
 }
+.error-message {
+  color: red;
+}
 @media screen and (max-width: 767px) {
   input {
     width: 90%;
@@ -160,5 +163,8 @@ button#signup-button:hover {
     position: relative;
     padding-top: 5px;
     font-size: 15px;
+  }
+  .error-message {
+    color: red;
   }
 }
