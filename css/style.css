@@ -32,7 +32,7 @@ h1 {
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Cinzel', serif;
-  text-shadow: 2px 2px #05aa1b;
+  text-shadow: 2px 2px #d0ff0095;
 }
 p {
   padding-bottom: 10px;
@@ -139,7 +139,7 @@ button#signup-button:hover {
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: 60px;
-    text-shadow: 2px 2px #06c920;
+    text-shadow: 2px 2px #00ff228e;
   }
   p {
     padding-bottom: 10px;
@@ -167,7 +167,7 @@ button#signup-button:hover {
     font-size: 15px;
   }
   button#signup-button {
-    background: linear-gradient(to right, #ee0979, #ff6a00);
+    background: linear-gradient(to right, cyan,#021bfb);
     border: none;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
@@ -177,7 +177,7 @@ button#signup-button:hover {
     display: block;
   }
   button#signup-button:hover {
-    background: linear-gradient(to left, #ee0979, #ff6a00);
+    background: linear-gradient(to left, #ff00f7, cyan);
   }
   .error-message {
     color: red;
