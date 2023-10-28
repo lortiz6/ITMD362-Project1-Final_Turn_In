@@ -15,11 +15,12 @@
           <h1>A Healthier You</h1>
           <p>🥑Ready to spice up your cooking routine and stay healthy? Is all about lifestyle, not diets. Let's eat well and thrive together!🥑</p>
           <p>Join us to get healthy recipes.</p>
-          <form id="signup-form">
+          <form id="signup-form" method="get" action="#null" autocomplete="on">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="user@mail.com" required>
+            <input type="email" id="email" name="email" placeholder="user@mail.com" required oninput="validateEmail(this)">
+            <span id="email-error" class="error-message"></span>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" placeholder="Choose a Password" required>
             <label for="confirm-password">Confirm Password:</label>
