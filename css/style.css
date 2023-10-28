@@ -12,7 +12,7 @@ body {
   background-position: center;
 }
 .box {
-  background: rgba(224, 168, 168, 0.918);
+  background: rgba(110, 111, 171, 0.901);
   color: #000000;
   padding: 20px;
   text-align: center;
@@ -32,7 +32,7 @@ h1 {
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Cinzel', serif;
-  text-shadow: 2px 2px #d0ff0095;
+  text-shadow: 2px 2px #d0ff00c0;
 }
 p {
   padding-bottom: 10px;
@@ -121,7 +121,7 @@ button#signup-button:hover {
 }
 @media screen and (min-width: 1024px) {
   .box {
-    background: rgba(240, 156, 156, 0.901);
+    background: rgba(224, 168, 168, 0.852);
     color: #000000;
     padding: 20px;
     text-align: center;
