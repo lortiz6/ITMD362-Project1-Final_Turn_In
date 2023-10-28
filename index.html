@@ -1,21 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/meyers_and_normalize-form_reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
-  <title>ITMD362-Project1 Final Turn In</title>
-</head>
-<body>
-  <div id="background">
-    <div class="box">
-      <div class="container">
-        <h1>A Healthier You</h1>
-        <p>🥑Ready to spice up your cooking routine and stay healthy? Is all about lifestyle, not diets. Let's eat well and thrive together!🥑</p>
-        <p>Join us to get healthy recipes.</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>ITMD362-Project1</title>
+  </head>
+  <body>
+    <div id="background">
+      <div class="box">
+        <div class="container">
+          <h1>A Healthier You</h1>
+          <p>🥑Ready to spice up your cooking routine and stay healthy? Is all about lifestyle, not diets. Let's eat well and thrive together!🥑</p>
+          <p>Join us to get healthy recipes.</p>
+          <form id="signup-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="user@mail.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Choose a Password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            <label class="checkbox-label">
+              <input type="checkbox" id="accept-terms" name="accept-terms" required>
+              <span class="checkmark"></span> I accept the Terms of Use & Privacy Policy
+            </label>
+            <button id="signup-button">Sign Up</button>
+          </form>
+          <p>Already have an account? <a href="#">Login here</a></p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
