@@ -29,8 +29,8 @@ body {
 }
 h1 {
   margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: bolder;
+  font-size: 28px;
   font-family: 'Cinzel', serif;
 }
 p {
@@ -38,7 +38,7 @@ p {
   color: #000000;
   margin: 10px 0;
   font-family: mohave;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -121,8 +121,8 @@ button#signup-button:hover {
   }
   h1 {
     margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 60px;
   }
   p {
     padding-bottom: 10px;
